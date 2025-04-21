@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Book App</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #667eea, #764ba2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5em;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 1em;
+            background-color: white;
+            color: #764ba2;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to Book Management App</h1>
+<p>A simple Spring Boot application to manage your books – create, read, update, and delete.</p>
+<a href="/api/getAllBooks"><button class="button">View All Books (JSON)</button></a>
+</body>
+</html>
